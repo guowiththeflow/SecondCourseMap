@@ -73,7 +73,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .build();
         mMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
 
-
     }
 
     public void checkPermission() {
